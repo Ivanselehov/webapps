@@ -1,0 +1,31 @@
+<!-- sound-board.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/jokes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<body>
+    <div class="container body-container">
+        <header class="header">
+            <h1 class="header__title">Jokes<br><span class="header__subtitle">by Ivan</span></h1>
+        </header>
+        <div class="content">
+            <div class="Jokes">
+                <div class="jokes__title">Шутка # <span id="jokesNum" class="jokes_-num"></span></div>
+                <div id="jokesText" class="jokes_text">Joke Will Be Here</div>
+                <button class="jokes__btn" onclick="getJokes()">Get Another joke</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/jokes.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

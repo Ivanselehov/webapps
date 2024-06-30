@@ -1,0 +1,27 @@
+.sound-board__sounds {
+    display: none;
+}
+
+.sound-board__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-nav__item {
+    background:#9e1f93;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color:#6020a0;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0,5;
+    border: none;
+}
+
+.main-nav__item:hover {
+    scale: 1.1;
+    box-shadow: 0px 0px 10px purple;
+    transition: 0.25s;
+}
